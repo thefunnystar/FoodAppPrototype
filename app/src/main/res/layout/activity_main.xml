@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="FoodAppPrototype"
+        android:textColor="@color/purple_500"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Choose a state:"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAlabama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Alabama"
+        android:backgroundTint="@color/purple_700"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btnAlaska"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Alaska"
+        android:backgroundTint="@color/purple_700"
+        android:layout_marginTop="7.5dp"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btnArizona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Arizona"
+        android:backgroundTint="@color/purple_700"
+        android:layout_marginTop="7.5dp"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btnArkansas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Arkansas"
+        android:backgroundTint="@color/purple_700"
+        android:layout_marginTop="7.5dp"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btnCalifornia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="California"
+        android:backgroundTint="@color/purple_700"
+        android:layout_marginTop="7.5dp"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btnColorado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Colorado"
+        android:backgroundTint="@color/purple_700"
+        android:layout_marginTop="7.5dp"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btnConnecticut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Connecticut"
+        android:backgroundTint="@color/purple_700"
+        android:layout_marginTop="7.5dp"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btnDelaware"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Delaware"
+        android:backgroundTint="@color/purple_700"
+        android:layout_marginTop="7.5dp"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+</LinearLayout>
